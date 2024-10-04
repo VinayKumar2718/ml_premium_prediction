@@ -1,6 +1,8 @@
+import subprocess
+import sys
 
-
-
+# Ensure joblib is installed
+subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
 
 import pandas as pd
 import joblib
