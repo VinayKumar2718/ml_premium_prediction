@@ -1,8 +1,3 @@
-import subprocess
-
-# Install joblib if not installed
-subprocess.run(["pip", "install", "joblib"])
-
 import streamlit as st
 from prediction_helper import predict
 
